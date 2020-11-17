@@ -70,6 +70,7 @@ class UserRepository with ChangeNotifier {
   }
 
   void syncPairs(){
+    notifyListeners();
     if (user != null) {
     _firestore.collection('users').doc(user.email).set({
       "Pairs": saved.toList(),
