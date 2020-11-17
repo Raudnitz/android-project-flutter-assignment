@@ -1,16 +1,12 @@
-# hello_me
+## HW3 - Android 
+### Question 1
+The class used to implement the controller is:  snappingSheetController
+It allows to control the sheet and get current snap position
 
-A new Flutter application.
+### Question 2
+The snapPositions parameter defines the different snap positions for the sheet.
 
-## Getting Started
+### Question 3
+ - The advantage that the GestureDetector provides is more controls like dragging that InkWell doesnt have.
+ - The advantage that the InkWell provides is the ripple effect that occures when tapping it.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
